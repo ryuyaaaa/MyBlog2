@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>People:</strong>
+  <%= @g.people %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @g.name %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @g.comment %>
+</p>
+
+<%= link_to 'Edit', edit_g_path(@g) %> |
+<%= link_to 'Back', gs_path %>
